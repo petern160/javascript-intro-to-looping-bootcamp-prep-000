@@ -16,16 +16,17 @@ function whileLoop(j){
 }
 
 
-function incrementVariable() {
-    i = i + 1;
-    return false;
-}
+
+
 function doWhileLoop(array){
-do {
-  array.pop()
-} while (array.length>0 && incrementVariable())
-return array
+  function incrementVariable() {
+      i = i + 1;
+}
+do{
+  array.pop();
+}
+while (array.length > 0 && incrementVariable())
+return array ;
 }
 
-do_while_arr = ['a','b','c'];
-console.log(doWhileLoop(do_while_arr))
+doWhileLoop([1,2,3,4,5])
