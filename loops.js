@@ -1,4 +1,4 @@
-function forLoop(a) {
+function forLoop(i) {
    for ( let i = 0; i < 25; i++) {
      if (i === 1) {
        console.log(`I am 1 strange loop.`)
@@ -6,5 +6,5 @@ function forLoop(a) {
        console.log(`I am ${i} strange loops.`)
      }
   }
-  return a;
+  return i;
 }
