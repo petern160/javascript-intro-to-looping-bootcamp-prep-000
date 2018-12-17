@@ -1,4 +1,4 @@
-function forLoop(array){
+function forLoop(j){
   for(var i = 0; i <25; i++){
     if (i === 1){
       array.push(`I am ${i} strange loop.`)
@@ -6,5 +6,5 @@ function forLoop(array){
       array.push(`I am ${i} strange loops.`)
   }
 }
-return array
+return j
 }
