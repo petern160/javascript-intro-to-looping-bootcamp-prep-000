@@ -8,5 +8,3 @@ function forLoop(i) {
   }
   return i;
 }
-
-forLoop()
