@@ -8,3 +8,9 @@ function forLoop(j){
 }
 return j
 }
+
+function whileLoop(j){
+  while(j>0)
+  {console.log(j--)}
+  return "done"
+}
